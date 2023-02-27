@@ -1,46 +1,43 @@
 # Tailwind CSS Starter
 
-This is a dead simple HTML Starter Template with Tailwind CSS.
+This is a dead simple Tailwind CSS HTML Starter Template for Beginners.
 
 ## How to use
 
 First clone the code to your local system from github.
 
 ```bash
-git clone https://github.com/web3templates/tailwindcss-starter.git MyProjectName
-# or (same folder)
+git clone https://github.com/web3templates/tailwindcss-starter.git project-name
+# or run (inside your project folder. need dot (.) in the end)
 git clone https://github.com/web3templates/tailwindcss-starter.git .
 ```
 
 Now, Install Node dependencies by installing the following command.
 
 ```bash
-npm install
+pnpm install
 # or
-yarn
+npm run install
 ```
 
 Then you can run the development server & watch css using the following steps:
 
 ```bash
-npm run dev
+pnpm dev
 # or
-yarn dev
+npm run dev
 ```
-To start a development server, go to `src/index.html` and right click on the page and choose "Open with Live Server". or use the shortcut (`Cmd + L` then `Cmd + O`). Alternatively, you can open the live server from the right top icon on the `index.html` page. You can see a preview pane icon with a search icon.
 
-Now you will get a URL like: `http://127.0.0.1:3000/src/index.html`
-
-Then, you will be able to make changes and you can see it live on the web server.
+This template uses **Vite** for development server, but you can also use VSCode Live Preview option or Live Server Plugin. If you use vite, you will see a localhost port address like: `http://localhost:5173` which you can click to open in any browser.
 
 ## Publishing / Deployment
 
 First, run the following command to build your project to `/dist` folder.
 
 ```bash
-npm run build
+pnpm build
 # or
-yarn build
+npm run build
 ```
 
 The above command will create a `/dist` folder with all the HTML files & assets from the `/src` folder.

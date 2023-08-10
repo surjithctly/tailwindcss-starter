@@ -1,6 +1,6 @@
 /** @type {import('vite').UserConfig} */
 import { resolve } from "path";
-import glob from "glob";
+import { glob } from "glob";
 
 export default {
   // ...

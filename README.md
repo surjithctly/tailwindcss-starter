@@ -7,9 +7,9 @@ This is a dead simple Tailwind CSS HTML Starter Template for Beginners.
 First clone the code to your local system from github.
 
 ```bash
-git clone https://github.com/web3templates/tailwindcss-starter.git project-name
+git clone -b v4 https://github.com/surjithctly/tailwindcss-starter.git myProject
 # or run (inside your project folder. need dot (.) in the end)
-git clone https://github.com/web3templates/tailwindcss-starter.git .
+git clone -b v4 https://github.com/surjithctly/tailwindcss-starter.git .
 ```
 
 Now, Install Node dependencies by installing the following command.

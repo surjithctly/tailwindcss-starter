@@ -1,25 +1,25 @@
 {
   "name": "tailwindcss-starter",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:css": "npx tailwindcss -i ./styles/tailwind.css -o ./public/assets/main.css --watch",
-    "dev": "concurrently npm:watch:css & vite",
-    "build": "npx tailwindcss -i ./styles/tailwind.css -o ./public/assets/main.css && vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^3.3.3"
+    "@tailwindcss/vite": "4.0.0-alpha.5",
+    "tailwindcss": "4.0.0-alpha.5"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0",
-    "glob": "^10.3.3",
-    "prettier": "^3.0.1",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "vite": "^4.4.9"
+    "glob": "^10.3.10",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "vite": "^5.1.5"
   }
 }

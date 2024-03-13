@@ -9,8 +9,8 @@ dependencies:
     specifier: 4.0.0-alpha.6
     version: 4.0.0-alpha.6
   tailwindcss:
-    specifier: 4.0.0-alpha.6
-    version: 4.0.0-alpha.6
+    specifier: 4.0.0-alpha.8
+    version: 4.0.0-alpha.8
 
 devDependencies:
   glob:
@@ -899,6 +899,12 @@ packages:
 
   /tailwindcss@4.0.0-alpha.6:
     resolution: {integrity: sha512-DE58UVlsxSVWwutkd8Mlo56AwlvK77qHU9xxa08PHvyZhCUBs+Go3ugIkRjq/YdosnVxUONJPusvj4MZPGeWrg==}
+    dependencies:
+      lightningcss: 1.24.0
+    dev: false
+
+  /tailwindcss@4.0.0-alpha.8:
+    resolution: {integrity: sha512-s7RsnLUep6SQnmYgCVCTj9D/P2tiubPZi/Ae1m58dG4Y3NWgXWo+C0L/95Qf8VNNsD76Qv8Srb4LojyTzqbE7A==}
     dependencies:
       lightningcss: 1.24.0
     dev: false

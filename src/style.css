@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #4f46e5;
+  --color-primary: var(--color-indigo-500);
   --spacing-128: 32rem;
+}
+
+body {
+  --color-primary: var(--color-blue-500);
 }

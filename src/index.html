@@ -10,44 +10,72 @@
 
   <body>
     <div class="flex min-h-screen flex-col items-center justify-center">
-      <h1 class="text-primary text-4xl font-semibold tracking-tight">
-        Simple Tailwind CSS Starter
-      </h1>
-      <p class="mt-2 text-sm text-gray-500">
-        Dead simple HTML starter template for Tailwind CSS beginners. No
-        Framework. Powered by Vite.
-      </p>
-
-      <div class="mt-4">
-        <a
-          href="https://github.com/web3templates/tailwindcss-starter"
-          target="_blank"
-          class="inline-flex items-center gap-2 rounded-full border border-gray-300 bg-gray-100 bg-gradient-to-b from-white/70 py-2 px-4 text-sm text-gray-700 shadow">
+      <div class="border border-gray-200 bg-white p-16">
+        <div
+          class="bg-warning-soft flex items-start rounded-lg py-3 px-2 text-sm leading-6 sm:items-center"
+          role="alert">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-4 w-4"
-            viewbox="0 0 32 32"
-            fill="none">
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            class="fill-warning-hard size-6 shrink-0 pl-1">
             <path
-              fill-rule="evenodd"
               clip-rule="evenodd"
-              d="M16 0C7.16 0 0 7.16 0 16C0 23.08 4.58 29.06 10.94 31.18C11.74 31.32 12.04 30.84 12.04 30.42C12.04 30.04 12.02 28.78 12.02 27.44C8 28.18 6.96 26.46 6.64 25.56C6.46 25.1 5.68 23.68 5 23.3C4.44 23 3.64 22.26 4.98 22.24C6.24 22.22 7.14 23.4 7.44 23.88C8.88 26.3 11.18 25.62 12.1 25.2C12.24 24.16 12.66 23.46 13.12 23.06C9.56 22.66 5.84 21.28 5.84 15.16C5.84 13.42 6.46 11.98 7.48 10.86C7.32 10.46 6.76 8.82 7.64 6.62C7.64 6.62 8.98 6.2 12.04 8.26C13.32 7.9 14.68 7.72 16.04 7.72C17.4 7.72 18.76 7.9 20.04 8.26C23.1 6.18 24.44 6.62 24.44 6.62C25.32 8.82 24.76 10.46 24.6 10.86C25.62 11.98 26.24 13.4 26.24 15.16C26.24 21.3 22.5 22.66 18.94 23.06C19.52 23.56 20.02 24.52 20.02 26.02C20.02 28.16 20 29.88 20 30.42C20 30.84 20.3 31.34 21.1 31.18C27.42 29.06 32 23.06 32 16C32 7.16 24.84 0 16 0V0Z"
-              fill="#24292E" />
+              d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9C13 9.55228 12.5523 10 12 10C11.4477 10 11 9.55228 11 9ZM12 12C12.5523 12 13 12.4477 13 13V15C13 15.5523 12.5523 16 12 16C11.4477 16 11 15.5523 11 15V13C11 12.4477 11.4477 12 12 12Z"
+              fill-rule="evenodd"></path>
           </svg>
-          <span>Github Repo</span>
-        </a>
+          <div
+            class="flex grow flex-col items-start px-2 sm:flex-row sm:items-center sm:gap-2">
+            <div
+              class="flex grow flex-col items-start sm:flex-row sm:items-center sm:gap-2">
+              <p class="text-warning-hard text-start font-medium">
+                You have no credits left!
+              </p>
+              <p class="text-warning-accent text-start">Upgrade to continue.</p>
+            </div>
+            <div class="mt-3 sm:mt-0 sm:ml-auto">
+              <button
+                class="group text-warning-hard inline-flex shrink-0 items-center justify-center gap-1 rounded-lg p-0 text-sm font-medium leading-6 text-inherit underline underline-offset-3 transition-colors duration-100">
+                <span class="px-1">Upgrade</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="fixed inset-auto bottom-10">
-        <p class="text-sm text-gray-500">
-          Made by
-          <a
-            href="https://web3templates.com"
-            target="_blank"
-            class="border-b border-gray-300"
-            >Web3Templates</a
-          >
-        </p>
+      <div class="dark border border-gray-900 bg-neutral-900 p-16">
+        <div
+          class="bg-warning-soft flex items-start rounded-lg py-3 px-2 text-sm leading-6 sm:items-center"
+          role="alert">
+          <svg
+            fill="currentColor"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            class="fill-warning-hard size-6 shrink-0 pl-1">
+            <path
+              clip-rule="evenodd"
+              d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9C13 9.55228 12.5523 10 12 10C11.4477 10 11 9.55228 11 9ZM12 12C12.5523 12 13 12.4477 13 13V15C13 15.5523 12.5523 16 12 16C11.4477 16 11 15.5523 11 15V13C11 12.4477 11.4477 12 12 12Z"
+              fill-rule="evenodd"></path>
+          </svg>
+          <div
+            class="flex grow flex-col items-start px-2 sm:flex-row sm:items-center sm:gap-2">
+            <div
+              class="flex grow flex-col items-start sm:flex-row sm:items-center sm:gap-2">
+              <p class="text-warning-hard text-start font-medium">
+                You have no credits left!
+              </p>
+              <p class="text-warning-accent text-start">Upgrade to continue.</p>
+            </div>
+            <div class="mt-3 sm:mt-0 sm:ml-auto">
+              <button
+                class="group text-warning-hard inline-flex shrink-0 items-center justify-center gap-1 rounded-lg p-0 text-sm font-medium leading-6 text-inherit underline underline-offset-3 transition-colors duration-100">
+                <span class="px-1">Upgrade</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

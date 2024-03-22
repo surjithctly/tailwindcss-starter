@@ -3,8 +3,22 @@
 @theme {
   --color-primary: var(--color-indigo-500);
   --spacing-128: 32rem;
+
+  --color-primary: var(--color-indigo-500);
+  --color-secondary: var(--color-purple-400);
+  --color-accent: var(--color-purple-400);
+  --color-background: var(--color-gray-50);
+  --color-foreground: var(--color-gray-900);
+
+  --color-warning-soft: var(--color-amber-50);
+  --color-warning-hard: var(--color-yellow-700);
+  --color-warning-accent: var(--color-yellow-600);
 }
 
-body {
+.dark {
   --color-primary: var(--color-blue-500);
+
+  --color-warning-soft: var(--color-zinc-800);
+  --color-warning-hard: var(--color-amber-400);
+  --color-warning-accent: var(--color-neutral-400);
 }
